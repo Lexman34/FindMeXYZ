@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AppVersion="1.0" Author="LexmanCAD" ProductCode="{fd6a719e-225d-41d8-803a-1cfc3c6e881e}" Name="FindMeXYZ" Icon="./Contents/Resources/Icons/FindMeXYZ80.png" AutodeskProduct="AutoCAD" Description="Dynamically annotate coordinates along the path of a variety of AutoCAD 2D and 3D objects." ProductType="Application" SupportedLocales="Enu" AppNameSpace="appstore.exchange.autodesk.com" OnlineDocumentation="www.facebook.com/LexmanCAD" FriendlyVersion="1.0">
+  <CompanyDetails Name="LexmanCAD" Email="Lexman@LexmanCAD.com" Url="www.facebook.com/LexmanCAD" Phone=" " />
+  <Components Description="2013 to 2015 parts">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32|Win64" Platform="AutoCAD" SeriesMin="R19.0" SeriesMax="R20.0" />
+    <ComponentEntry AppName="FindMeXYZ" Version="1.0" ModuleName="./Contents/Windows/FindMeXYZ.fas" AppDescription="Dynamically annotate coordinates along the path of a variety of AutoCAD 2D and 3D objects." PerDocument="True" LoadOnCommandInvocation="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="FINDMEXYZ" Global="FINDMEXYZ" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="FindMeXYZ" Version="1.0" ModuleName="./Contents/Windows/FindMeXYZ.cuix" AppDescription="Dynamically annotate coordinates along the path of a variety of AutoCAD 2D and 3D objects." PerDocument="False" LoadOnCommandInvocation="True" LoadOnAutoCADStartup="True"/>
+  </Components>
+</ApplicationPackage>

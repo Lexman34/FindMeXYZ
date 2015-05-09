@@ -1,0 +1,15 @@
+;;; VLisp project file [V2.0] FindMeXYZ saved to:[C:/Users/Alexander/Dropbox/AutodeskApps/FindMeXYZ] at:[9/11/14] 
+(VLISP-PROJECT-LIST :NAME
+		    FindMeXYZ
+		    :OWN-LIST
+		    ("FindMeXYZ")
+		    :FAS-DIRECTORY
+		    "C:\\Users\\Alexander\\Dropbox\\AutodeskApps\\FindMeXYZ"
+		    :TMP-DIRECTORY
+		    "C:\\Temp"
+		    :PROJECT-KEYS
+		    (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+		    :CONTEXT-ID
+		    :AUTOLISP
+)
+;;; EOF
